@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHI - World's Most Advanced Hair Transplant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <header class="navbar-container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="/home/images/dhi-small.jfif" alt="DHI Direct Hair Implantation Logo">
+            </div>
+
+            <nav class="nav-links desktop-menu">
+                <ul>
+                    <li><a href="#" class="dropdown-link">Hair Transplant ▼</a></li>
+                    <li><a href="#" class="dropdown-link">Hair loss Treatment ▼</a></li>
+                    <li><a href="#" class="dropdown-link">Results ▼</a></li>
+                    <li><a href="#">Why DHI ▼</a></li>
+                    <li><a href="#" class="dropdown-link">Locations ▼</a></li>
+                    <li><a href="#" class="dropdown-link">Shop ▼</a></li>
+                </ul>
+            </nav>
+
+            <a href="#" class="btn book-consultation desktop-btn">Book Consultation</a>
+
+            <button class="hamburger-menu" id="mobile-menu-btn" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <nav class="mobile-menu" id="mobile-menu">
+            <ul>
+                <li><a href="#" class="dropdown-link">Hair Transplant ▼</a></li>
+                <li><a href="#" class="dropdown-link">Hair loss Treatment ▼</a></li>
+                <li><a href="#" class="dropdown-link">Results ▼</a></li>
+                <li><a href="#">Why DHI ▼</a></li>
+                <li><a href="#" class="dropdown-link">Locations ▼</a></li>
+                <li><a href="#" class="dropdown-link">Shop ▼</a></li>
+            </ul>
+            <a href="#" class="btn book-consultation mobile-btn">Book Consultation</a>
+        </nav>
+    </header>
+
+     <!-- Hero Section with Image Slider -->
+<div class="hero-slider">
+  <div class="slider-container">
+    <!-- Arrow Buttons -->
+    <button class="slider-arrow left-arrow" aria-label="Previous Slide">
+      <i class="fas fa-chevron-left"> < </i>
+    </button>
+    <button class="slider-arrow right-arrow" aria-label="Next Slide">
+      <i class="fas fa-chevron-right"> > </i>
+    </button>
+
+    <!-- Slide 1 (Active by default) -->
+    <div class="slider-slide active" id="slide-1">
+      <img 
+        src="/home/images/banner2.png" 
+        onerror="this.onerror=null; this.src='home/img2.png';"
+        class="slider-large-img" 
+        alt="Master Surgeon performing Direct Hair Implantation">
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slider-slide" id="slide-2">
+      <img 
+        src="/home/images/banner1.png" 
+        onerror="this.onerror=null; this.src='home/img1.png';"
+        class="slider-large-img" 
+        alt="Image 2: Post-Procedure Results">
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slider-slide" id="slide-3">
+      <img 
+        src="/home/images/banner3.png" 
+        onerror="this.onerror=null; this.src='home/img3.png';"
+        class="slider-large-img" 
+        alt="Image 3: Another Example">
+    </div>
+  </div>
+</div>
+    
+
+ <!-- Clinics in India Section (Card Row) -->
+<section class="clinic-section">
+  <div class="container">
+    <h2>Best Hair Transplant Clinics In India</h2>
+    <div class="clinic-cards">
+      <!-- Card 1 -->
+      <div class="clinic-card">
+        <div class="clinic-card-media">
+          <img src="https://bakup.dhiindia.com/images/home/hair-transplant/img1.jpg" alt="Male Hair Restoration before and after">
+        </div>
+        <div class="clinic-card-content">
+          <h3>Beard Transplant</h3>
+          <p>We recreate natural and stylish beard by implanting your own hair from the scalp using DHITM technique..</p>
+          <a href="#" class="card-btn">Know More <i>→</i></a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="clinic-card">
+        <div class="clinic-card-media">
+          <img src="https://bakup.dhiindia.com/images/home/hair-transplant/img2.jpg" alt="Female Hair Restoration before and after">
+        </div>
+        <div class="clinic-card-content">
+          <h3>Beard Transplant</h3>
+          <p>We recreate natural and stylish beard by implanting your own hair from the scalp using DHITM technique..</p>
+          <a href="#" class="card-btn">Know More <i>→</i></a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="clinic-card">
+        <div class="clinic-card-media">
+          <img src="https://bakup.dhiindia.com/images/home/hair-transplant/img3.jpg" alt="Beard Hair Treatment before and after">
+        </div>
+        <div class="clinic-card-content">
+          <h3>Beard Transplant</h3>
+          <p>We recreate natural and stylish beard by implanting your own hair from the scalp using DHITM technique..</p>
+          <a href="#" class="card-btn">Know More <i>→</i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="why-choose-section">
+    <div class="container why-choose-content">
+        <div class="why-choose-left">
+            <h2>Why Choose DHI?</h2>
+            <p>DHI is considered the gold standard in hair restoration, with global patents, world-class facilities and international accreditations.</p>
+            <a href="#" class="know-more-btn">Know More <span class="arrow-icon">→</span></a>
+        </div>
+        
+        <div class="why-choose-features">
+            <div class="feature-item feature-highlight">
+                <div class="feature-title">
+                    <img src="https://bakup.dhiindia.com/images/home/why-chose/icon1.png" alt="Doctor icon">
+                    Certified Doctors
+                </div>
+                <p>All procedures are performed from start to finish by DHI doctors. They are certified, constantly evaluated and recertified every year to ensure quality.</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-title">
+                    <img src="https://bakup.dhiindia.com/images/home/why-chose/icon2.png" alt="Safety icon">
+                    Safety Protocols
+                </div>
+                <p>All procedures are performed as per strict Standard Operating Protocols accredited with UK Care Quality Commission & ISO standards.</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-title">
+                    <img src="https://bakup.dhiindia.com/images/home/why-chose/icon3.png" alt="Academy icon">
+                    Academy
+                </div>
+                <p>All DHI doctors are trained and certified by the London Hair Restoration Academy. Every procedure goes through a strict quality control as per the Academy Protocols.</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-title">
+                    <img src="https://bakup.dhiindia.com/images/home/why-chose/icon4.png" alt="Precision icon">
+                    Precision Control
+                </div>
+                <p>Perfect control over angle, depth and direction with DHI's patented instruments which are discarded after every procedure.</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-title">
+                    <img src="https://bakup.dhiindia.com/images/home/why-chose/icon5.png" alt="Clinic icon">
+                    Authorized Clinics
+                </div>
+                <p>Above features are exclusively available at DHI authorised clinics only. Some clinics and doctors try to claim to use DHI Technique which is misleading.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="global-stats-section">
+    <div class="global-stats-content">
+        <div class="stats-container">
+            <h3>The Global Hair Restoration Brand, <span>You Can Trust!</span></h3>
+            <div class="stat-grid">
+                <div class="stat-item">
+                    <div class="number">55</div>
+                    <div class="label">Years of Expertise</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number">45</div>
+                    <div class="label">Countries</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number">75</div>
+                    <div class="label">Clinics Worldwide</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number">500,000</div>
+                    <div class="label">Delighted Patients</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="map-container">
+            <img src="/home/images/map.png" alt="World Map showing DHI clinics">
+        </div>
+    </div>
+</section>
+
+<!-- Dhi result section -->
+<section class="results-section">
+    <div class="container results-container">
+        <div class="results-header">
+            <h2>DHI Results</h2>
+            <p>Our results aren't just good, they're awesome! 
+                <a href="#" class="results-link">Click here</a> to see our results and 
+                <a href="#" class="results-link">View</a> our customer feedback.
+            </p>
+        </div>
+        
+        <div class="results-grid">
+            
+            <a href="#" class="result-item result-item-mobile-only">
+                <img src="https://bakup.dhiindia.com/images/home/dhi-result/result1.png" alt="Hair Transplant Before and After">
+                <div class="result-caption">Hair Transplant</div>
+            </a>
+    
+            <a href="#" class="result-item">
+                <img src="https://bakup.dhiindia.com/images/home/dhi-result/result2.png" alt="Female Hair Transplant Before and After">
+                <div class="result-caption">Female Hair Transplant</div>
+            </a>
+            
+            <a href="#" class="result-item">
+                <img src="https://bakup.dhiindia.com/images/home/dhi-result/result3.png" alt="Beard Hair Restoration Before and After">
+                <div class="result-caption">Beard Hair Restoration</div>
+            </a>
+            
+            <a href="#" class="result-item">
+                <img src="https://bakup.dhiindia.com/images/home/dhi-result/result4.png" alt="Hair Loss Treatments Before and After">
+                <div class="result-caption">Hair Loss Treatments</div>
+            </a>
+          
+            <a href="#" class="result-item">
+                <img src="https://bakup.dhiindia.com/images/home/dhi-result/result5.png" alt="Cosmetic Hair Patch Before and After">
+                <div class="result-caption">Cosmetic Hair Patch</div>
+            </a>
+            
+            <a href="#" class="result-item">
+                <img src="https://bakup.dhiindia.com/images/home/dhi-result/result6.png" alt="Hair Care Products">
+                <div class="result-caption">Hair Care Products</div>
+            </a>
+        </div>
+        
+        <div class="results-cta-container">
+            <a href="#" class="btn-results">
+                <span class="btn-desktop-text">More Results ></span>
+                <span class="btn-mobile-text">More Result > </span>
+            </a>
+        </div>
+    </div>
+</section>
+
+    <!-- 4. Featured On Section -->
+    <section class="featured-section">
+        <div class="container featured-container">
+            <h2>Featured On</h2>
+            <div class="logo-grid">
+                <img src="/home/logo/aaj_tak.png" alt="Aaj Tak Logo">
+                <img src="/home/logo/dainik_bhaskar.png" alt="Dainik Bhaskar Logo">
+                <img src="/home/logo/cnbc_tv18.png" alt="CNN News 18 Logo">
+                <img src="/home/logo/indian_express.png" alt="Indian Express Logo">
+                <img src="/home/logo/news18.png" alt="News18 Logo">
+                <img src="/home/logo/Zee_business.jpeg" alt="Zee Business Logo">
+                <img src="/home/logo/outlook_business.png" alt="Outlook Business Logo">
+                <img src="/home/logo/ET.jpeg" alt="ET Logo">
+                <img src="/home/logo/india_today.png" alt="Indai Today Logo">
+                <img src="/home/logo/mid-day.png" alt="Mid-day Logo">
+                <img src="/home/logo/firstpost.png" alt="First Post Logo">
+                <img src="/home/logo/TOI.jpeg" alt="Times of India Logo">
+            </div>
+        </div>
+    </section>
+
+<section class="surgeons-section">
+    <div class="container surgeons-container">
+        <h2>India's Best Hair Transplant Surgeons</h2>
+        <p>All procedures are performed exclusively by certified doctors trained at the London Hair Restoration Academy. With strict quality control and decades of expertise, our surgeons focus solely on hair restoration to provide you with the most appropriate treatment plan.</p>
+        
+        <div class="surgeon-grid">
+            <div class="surgeon-card">
+                <img src="/home/images/team1.png" alt="Dr. Kuntal Deb Barma">
+                <p>Dr. Kuntal Deb Barma</p>
+            </div>
+            
+            <div class="surgeon-card">
+                <img src="/home/images/team5.png" alt="Dr. Sanjeev Paria">
+                <p>Dr. Sanjeev Paria</p>
+            </div>
+            
+            <div class="surgeon-card">
+                <img src="/home/images/team12.png" alt="Dr. Nishat Fatima">
+                <p>Dr. Nishat Fatima</p>
+            </div>
+            
+            <div class="surgeon-card">
+                <img src="/home/images/team10.png" alt="Dr. Deepak Choudhary">
+                <p>Dr. Deepak Choudhary</p>
+            </div>
+            
+            <div class="surgeon-card surgeon-desktop-only">
+                <img src="/home/images/team3.png" alt="Dr. Roby Bose">
+                <p>Dr. Roby Bose</p>
+            </div>
+            
+            <div class="surgeon-card surgeon-desktop-only">
+                <img src="/home/images/team11.png" alt="Dr. Ritika Khanna">
+                <p>Dr. Ritika Khanna</p>
+            </div>
+        </div>
+        
+        <div class="surgeons-cta-container">
+            <a href="#" class="btn-doctors">Know More About DHI's Doctors ></a>
+        </div>
+    </div>
+</section>
+    
+   <section class="awards-section">
+    <div class="container">
+        <h2>Awards & Recognition</h2>
+        <p>The awards and recognitions we have received over the years have inspired us to continue our pursuit of revolutionising the hair restoration sphere.</p>
+        
+        <div class="awards-slider-wrapper">
+            <div class="awards-grid award-slides current-slide">
+                <div class="award-item"><img src="https://bakup.dhiindia.com/images/home/award/1.jpg" alt="Award 1"></div>
+                <div class="award-item"><img src="https://bakup.dhiindia.com/images/home/award/2.jpg" alt="Award 2"></div>
+                <div class="award-item"><img src="https://bakup.dhiindia.com/images/home/award/3.jpg" alt="Award 3"></div>
+                <div class="award-item"><img src="https://bakup.dhiindia.com/images/home/award/3.jpg" alt="Award 4"></div>
+                <div class="award-item"><img src="https://bakup.dhiindia.com/images/home/award/5.jpg" alt="Award 5"></div>
+            </div>
+            
+            <div class="awards-grid award-slides next-slide">
+                <div class="award-item"><img src="https://bakup.dhiindia.com/images/home/award/6.jpg" alt="Award 6"></div>
+                <div class="award-item"><img src="https://bakup.dhiindia.com/images/home/award/7.jpg" alt="Award 7"></div>
+                <div class="award-item"><img src="https://bakup.dhiindia.com/images/home/award/8.jpg" alt="Award 8"></div>
+                <div class="award-item"><img src="https://bakup.dhiindia.com/images/home/award/9.jpg" alt="Award 9"></div>
+                <div class="award-item"><img src="https://bakup.dhiindia.com/images/home/award/10.jpg" alt="Award 10"></div>
+            </div>
+
+            </div>
+    </div>
+</section>
+   
+
+<!-- Blog and Testimonial -->
+
+<section class="blogs-section">
+    <div class="container">
+        <h2 class="section-title">Latest Blogs</h2>
+        <div class="blog-grid">
+            <div class="blog-card active">
+                <img src="/home/images/1.jpg" alt="Woman looking distressed at damaged hair" class="blog-image">
+                <div class="blog-content">
+                    <h3 class="demo-heading">Demo Heading</h3>
+                    <p>In the centre of India, where traffic overloads, dust storms, irregular weather, and harmful UV exposure can make an appearance, the most spectacular car looks dull.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="/home/images/2.jpg" alt="Man with balding crown" class="blog-image">
+                <div class="blog-content">
+                    <h3 class="demo-heading">Demo Heading</h3>
+                    <p>In the centre of India, where traffic overloads, dust storms, irregular weather, and harmful UV exposure can make an appearance, the most spectacular car looks dull.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="/home/images/3.jpg" alt="Man with balding crown in mirror" class="blog-image">
+                <div class="blog-content">
+                    <h3 class="demo-heading">Demo Heading</h3>
+                    <p>In the centre of India, where traffic overloads, dust storms, irregular weather, and harmful UV exposure can make an appearance, the most spectacular car looks dull.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="blog-dots">
+            <span class="blog-dot active"></span>
+            <span class="blog-dot"></span>
+            <span class="blog-dot"></span>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials-section">
+    <div class="container">
+        <p class="testimonial-heading">Join the millions of men and women who have come to DHI for answers to their hair restoration questions</p>
+        
+        <div class="review-carousel-container">
+            <div class="review-card-wrapper">
+            
+                <div class="review-card">
+                <button class="carousel-arrow carousel-arrow-prev" aria-label="Previous Review">
+                    <i class="fas fa-chevron-left"> < </i>
+                </button>
+                    <div class="review-text-content">
+                         <img src="/home/images/team1.png" class="reviewer-image" alt="Rajat's profile picture">
+                        <div class="quote-text-group">
+                            <span class="quote-icon-left">❝</span>
+                            <p class="review-quote">Join the millions of men and women who have come to DHI for answers to their hair restoration questions. Join the millions of men and women who have come to DHI for answers to their hair restoration questions. Join the millions of men and women who have come to DHI for answers to their hair restoration questions.</p>
+                            <span class="quote-icon-right">❞</span>
+                        </div>
+                        <div class="video-info">
+                            <a href="#" class="watch-story-link">
+                                Watch Rajat Stroy  <i class="fab fa-youtube">▶</i>
+                            </a>
+                        </div>
+                    <button class="carousel-arrow carousel-arrow-next" aria-label="Next Review">
+                    <i class="fas fa-chevron-right"> > </i>
+                </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Faq Section -->
+
+  <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-accordion">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAccordion(this)">
+                        Who Will Perform The Procedure?
+                        <i class="fas fa-chevron-down"> ˅ </i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>All DHI procedures are performed by highly trained and certified doctors from the London Hair Restoration Academy, ensuring consistency and quality control.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item 2 -->
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAccordion(this)">
+                        How Does The Clinic Ensure The Quality Of Your Results?
+                        <i class="fas fa-chevron-down"> ˅ </i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We use a strict protocol, patented instruments (which are disposable), and maintain a high graft survival rate of over $90\%$, significantly higher than industry averages.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item 3 -->
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAccordion(this)">
+                        What Is The Experience Of The Clinic/Doctor You Are Going To?
+                        <i class="fas fa-chevron-down"> ˅ </i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>DHI has decades of experience and has treated over 500,000 patients globally. All doctors are continuously evaluated and re-certified annually.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item 4 -->
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAccordion(this)">
+                        Should Price Play A Role In Choosing A Hair Transplant Clinic Or Doctor?
+                        <i class="fas fa-chevron-down"> ˅ </i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>While cost is a factor, prioritizing quality, safety protocols, and the doctor's certification is paramount to ensure natural, long-lasting results and avoid complications.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item 5 -->
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAccordion(this)">
+                        How Do You Ensure Your Safety During And After The Hair Transplant Procedure?
+                        <i class="fas fa-chevron-down"> ˅  </i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Procedures follow strict Standard Operating Protocols accredited with UK Care Quality Commission and ISO standards. We provide comprehensive post-operative care and check-ups.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item 6 -->
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAccordion(this)">
+                        Would You Go For A Hair Transplant Without A Proper Evaluation Of Your Alopecia?
+                        <i class="fas fa-chevron-down"> ˅ </i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No, a proper diagnosis is essential. The DHI consulting doctor correctly diagnoses the area and the underlying problem leading to hair loss before creating a personalized treatment plan.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item 7 -->
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAccordion(this)">
+                        Is Your Doctor Suitably Trained And Certified? Do They Follow Standard And Accredited Protocols?
+                        <i class="fas fa-chevron-down"> ˅ </i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, all DHI doctors are trained and certified by the London Hair Restoration Academy and strictly adhere to accredited global protocols (UK Care Quality Commission & ISO).</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detailed Information Text -->
+            <div class="info-text-section">
+                <h3>Most Trusted Hair Transplant Clinic in India</h3>
+                <p>Hair loss is a widespread problem that often has underlying medical causes. The DHI Technique™ (Direct Hair Implantation) offers a permanent solution for hair loss in India. This procedure is designed to address various factors contributing to baldness, such as genetics, stress, medical conditions, and external influences.</p>
+                <p>DHI™ India is one of the most trusted and renowned names, offering a unique technique for hair transplants in India. In the consultation, the DHI™ consulting doctor correctly diagnoses the area and the problem leading to baldness and hair loss and advises an appropriate hair loss treatment plan to give you a natural, dense look. This hair loss treatment is safe and offers permanent results. With the DHI Technique™ (Direct Hair Implantation), the follicles are extracted and implanted directly.</p>
+                <p>This provides total control of the angle, direction and depth of implantation, achieving much higher growth than FUE or FUT and gives natural-looking results.</p>
+                <p>For maximum safety, Direct Hair Implantation is performed exclusively with single-use instruments by doctors trained and certified by the London Hair Restoration Training Academy.</p>
+                <p>We deliver natural and permanent results for each of our cases. Depending on the harvesting of the donor site, our trained and certified surgeons customize and plan the whole surgery to offer you satisfactory results. We will be overwhelmed to serve you with hair transplants in India. Book your consultation now at one of DHI™ clinics in Delhi, Bangalore, Chennai, Kolkata, Hyderabad, Gurgaon, Guwahati, Noida, Kochi, Chandigarh, Lucknow, Calicut, Coimbatore and Salem.</p>
+
+                <h3>Safe Hair Transplant</h3>
+                <p>The world’s safest hair transplant procedure is performed in a sterile environment per comprehensive safety protocols. All procedures are performed only after proper diagnosis and medical tests. The DHI™ hair transplant procedure is a one-step implantation process to ensure minimal graft handling. The highest graft survival rate is over $90\%$, compared to $50-90\%$ in other clinics. All our hair restoration procedures are safe and ensure maximum density and permanent results.</p>
+
+                <h3>Hair Transplant for Everyone</h3>
+                <p>For male pattern baldness, female pattern baldness, hair thinning, and other hair loss concerns, DHI™ has the right hair restoration solution for everyone at each hair loss stage. Our hair loss treatment portfolio range encompasses minimally invasive surgical interventions and non-invasive solutions.</p>
+                <p>We at DHI™ strive to make hair restoration accessible to one and all by ensuring that our hair restoration solutions yield the maximum possible and permanent outcomes.</p>
+                <p>Not just men; our hair transplant services are available for women as well.</p>
+
+                <h3>Highest Hair Transplant Success Rate</h3>
+                <p>A hair transplant is considered successful only if the results look natural. Three aspects of hair transplant are very important for a natural result: Design, Direction and Density.</p>
+                <p>DHI™ surgeons use patented, precise instruments and their skills to perform the procedure that ensures a high success rate of hair transplants. This enables our patients to notice natural results and regain their confidence. Contact us now and book a hair loss diagnosis consultation at DHI™ clinics to discuss your personalized treatment plan and hair transplant cost.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 7. Footer -->
+
+    <footer>
+    <div class="container">
+        <div class="footer-main">
+            <div class="footer-column">
+                <img src="/home/images/dhi-small.jfif" alt="DHI Direct Hair Implantation" class="dhi-logo">
+                <h4 class="column-title">About DHI™</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Hair Transplant FAQ</a></li>
+                    <li><a href="#">Overseas Clients</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Hair Transplant Videos</a></li>
+                    <li><a href="#">Hair Transplant Guide</a></li>
+                    <li><a href="#">Hair Transplant Cost</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+                <div class="social-icons">
+                    <img src="/home/logo/facebook.png" class="fab fa-facebook-f">
+                    <img src="/home/logo/twitter.png" class="fab fa-twitter">
+                    <img src="/home/logo/youtube.png" class="fab fa-youtube">
+                    <img src="/home/logo/insta.png" class="fab fa-instagram">
+                    <img src="/home/logo/linkedin.png" class="fab fa-linkedin-in">
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="column-title">Treatments</h4>
+                <ul>
+                    <li><a href="#">Alopecia Diagnostic Test</a></li>
+                    <li><a href="#">Direct Hair Implantation</a></li>
+                    <li><a href="#">Cosmetic Hair Patch</a></li>
+                    <li><a href="#">Scalp Micropigmentation</a></li>
+                    <li><a href="#">Eyebrow Restoration</a></li>
+                    <li><a href="#">Beard Restoration</a></li>
+                    <li><a href="#">Scar Repair</a></li>
+                    <li><a href="#">Growth Factor Concentrate - GFC</a></li>
+                    <li><a href="#">Platelet Rich Plasma - PRP</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="column-title">All About Hair</h4>
+                <ul>
+                    <li><a href="#">Hair Loss Treatment</a></li>
+                    <li><a href="#">Hair Transplant Technique</a></li>
+                    <li><a href="#">Hair Restoration</a></li>
+                    <li><a href="#">Baldness Treatment in India</a></li>
+                    <li><a href="#">Eyebrow Transplant</a></li>
+                    <li><a href="#">Hair Transplant Cost In Delhi</a></li>
+                    <li><a href="#">Female Hair Loss</a></li>
+                    <li><a href="#">Hair Transplant Clinic in Delhi</a></li>
+                    <li><a href="#">Hair Anatomy</a></li>
+                    <li><a href="#">Types of Alopecia</a></li>
+                    <li><a href="#">Causes of Hair Loss</a></li>
+                    <li><a href="#">Hair Transplant Glossary</a></li>
+                    <li><a href="#">Hair Calculation</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="column-title">Contact Details</h4>
+                <ul class="footer-right">
+                    <li><a href="#"></a><img src="/home/logo/location.png"> US Patent #8,801,743 B2 | EU Patent #EU 2234550</li>
+                    <li><a href="#"></a>Newsletter_2020</li>
+                    <li><a href="#"></a><img src="/home/logo/call.png"> 1800 103 9300</li>
+                    <li><a href="#"></a><img src="/home/logo/mail.png"> hello@dhiindia.com</li>
+                    <li><a href="#"></a> <span>54</span>• Years of Excellence</li>
+
+                </ul>
+                <ul class="cert-logo">   
+                    <li><a href="#"><img src="/home/logo/Iso_logo.png" alt="ISO Certification"></a></li>
+                    <li><a href="#"> <img src="/home/logo/Q_logo.png" alt="CareQuality Commission"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-cities">
+        <div class="container">
+            <span class="cities-title">DHI™ Hair Transplant Clinics:</span>
+            <span class="city-links">
+                <a href="#">Delhi</a> | 
+                <a href="#">Gurgaon</a> | 
+                <a href="#">Noida</a> | 
+                <a href="#">Kolkata</a> | 
+                <a href="#">Bangalore</a> | 
+                <a href="#">Chandigarh</a> | 
+                <a href="#">Chennai</a> | 
+                <a href="#">Kochi</a> | 
+                <a href="#">Hyderabad</a> | 
+                <a href="#">Guwahati</a> | 
+                <a href="#">Lucknow</a> | 
+                <a href="#">Calicut</a> | 
+                <a href="#">Coimbatore</a> | 
+                <a href="#">Salem</a>
+            </span>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container footer-bottom-content">
+            <div class="copyright-text">
+                <span class="copyright">© 2024. All rights reserved by: </span> <br> <a href="#" class="corporate-link">Silvermaple Healthcare services private limited</a>
+            </div>
+            <div class="utility-links">
+                <a href="#">Terms & Conditions</a> |
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Cookie Policy</a> |
+                <a href="#">Sitemap</a> |
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script>
+
+         document.addEventListener('DOMContentLoaded', () => {
+            // --- Slider Logic ---
+            const slides = document.querySelectorAll('.slider-slide');
+            const leftArrow = document.querySelector('.left-arrow');
+            const rightArrow = document.querySelector('.right-arrow');
+            let currentSlide = 0;
+
+            const showSlide = (index) => {
+                slides.forEach((slide, i) => {
+                    slide.classList.remove('active');
+                    if (i === index) {
+                        slide.classList.add('active');
+                    }
+                });
+            };
+
+            rightArrow.addEventListener('click', () => {
+                currentSlide = (currentSlide + 1) % slides.length;
+                showSlide(currentSlide);
+            });
+
+            leftArrow.addEventListener('click', () => {
+            
+                currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+                showSlide(currentSlide);
+            });
+
+            if (slides.length > 0) {
+                 showSlide(currentSlide);
+            }
+
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const navbarContainer = document.querySelector('.navbar-container');
+
+            if (mobileMenuBtn && mobileMenu) {
+                mobileMenuBtn.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('open');
+                    if (navbarContainer) {
+                        navbarContainer.classList.toggle('menu-expanded');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
