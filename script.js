@@ -1,1 +1,1 @@
-https://bakup.dhiindia.com/images/home/counter-location/location.png
+https://bakup.dhiindia.com/images/home/blog/2.jpg
